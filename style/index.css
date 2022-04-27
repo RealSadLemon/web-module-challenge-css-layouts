@@ -8,6 +8,7 @@ header{
     align-items: center;
     background-color: #2D3047;
     box-shadow: 0px 4px 10px black;
+    margin-bottom: 40px;
 }
 header h1 a.secret{
     font-family: 'Rock Salt', cursive, sans-serif;
@@ -50,40 +51,61 @@ header nav a:hover{
     color: lightsalmon;
     background-color: #2D3047;
 }
+article{
+    display: flex;
+    justify-content: center;
+}
 article div.blob-painting{
     background: url("../images/20211003_202954_HDR~2.jpg") no-repeat center center;
     background-size: cover;
     background-color: #2D3047;
-    width: 90vw;
+    width: 80vh;
     height: 30vh;
-    margin: 3vw 3vw;
-    border: solid 2vw #2D3047;
-    border-radius: 4vw;
+    margin: 3vh 3vh;
+    border: solid 2vh #2D3047;
+    border-radius: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 article div.blob-painting h2{
     font-family: 'Rock Salt', cursive, sans-serif;
     font-weight: bolder;
-    font-size: 5vw;
+    font-size: 5vh;
     width: fit-content;
     height: fit-content;
     background-color: #fffd82;
     color: #2D3047;
-    padding: 5vw;
-    border-radius: 10vw;
-    text-shadow: 0vw 0vw 3vw lightsalmon;
-    box-shadow: 2vw 2vw 5vw #2D3047;
+    padding: 5vh;
+    border-radius: 10vh;
+    text-shadow: 0vw 0vw 2vh rgb(206, 128, 97);
+    box-shadow: 2vh 2vh 5vh #2D3047;
 }
 article div.blob-painting p{
     background-color: lightsalmon;
-    border-radius: 0vw 0vw 1vw 1vw;
+    border-radius: 0vw 0vw 1vh 1vh;
     font-family: 'Quicksand', 'Courier New', Courier, monospace;
-    padding: 2vw;
+    padding: 2vh;
     font-size: large;
     font-weight: bold;
     color: #2D3047;
-    box-shadow: 2vw 2vw 5vw #2D3047;
+    box-shadow: 2vh 2vh 5vh #2D3047;
+}
+section{
+    background-color: #1B998B;
+    box-shadow: 0px -4px 60px rgb(56, 56, 56);
+    border-top: solid 1vh #147065;
+    border-bottom: solid 1vh #147065;;
+    margin-top: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+section div{
+    width: 28vw;
+    height: fit-content;
+    margin: 2vw;
+    background-color: #2D3047;
+    border-radius: 1vh;
 }
