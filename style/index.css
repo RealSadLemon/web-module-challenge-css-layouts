@@ -211,7 +211,8 @@ article div.blob-border{
     color: white;
 }
 article div h2.About,
-article div h2.Contact{
+article div h2.Contact,
+article div h2.Projects{
     background-color: #fffd82;
     padding: 2vw;
     margin: -6vh 0vh 2vh -6vh;
@@ -239,4 +240,43 @@ article div p.Contact a:hover{
     background-color: #0e0f16;
     transition: .2s;
     border-radius: 2vh;
+}
+div.height-filler{
+    min-height: 15px;
+}
+div.project{
+    background-color: #1B998B;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    padding: 1vw;
+    border-radius: 1vh;
+    min-width: 40vw;
+    margin-top: 15px;
+}
+div.project a img{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 1vh;
+}
+div.project a img:hover{
+    box-sizing: border-box;
+    border: solid .2vw white;
+}
+div.description{
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+    max-width: 30vw;
+}
+div.project div.description h3{
+    background-color: lightsalmon;
+    max-width: fit-content;
+    padding: 1vw;
+    border-radius: 1vh;
+    margin: -1.5vw 1vw 1vw -2vw;
+    font-weight: bolder;
+}
+div.project div.description p{
+    color: #2D3047;
+    font-weight: 400;
+    padding: 15px;
 }
