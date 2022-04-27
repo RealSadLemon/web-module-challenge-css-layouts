@@ -7,6 +7,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #2D3047;
+    box-shadow: 0px 4px 10px black;
 }
 header h1 a.secret{
     font-family: 'Rock Salt', cursive, sans-serif;
@@ -54,8 +55,35 @@ article div.blob-painting{
     background-size: cover;
     background-color: #2D3047;
     width: 90vw;
-    height: 58vh;
+    height: 30vh;
     margin: 3vw 3vw;
     border: solid 2vw #2D3047;
     border-radius: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+article div.blob-painting h2{
+    font-family: 'Rock Salt', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: 5vw;
+    width: fit-content;
+    height: fit-content;
+    background-color: #fffd82;
+    color: #2D3047;
+    padding: 5vw;
+    border-radius: 10vw;
+    text-shadow: 0vw 0vw 3vw lightsalmon;
+    box-shadow: 2vw 2vw 5vw #2D3047;
+}
+article div.blob-painting p{
+    background-color: lightsalmon;
+    border-radius: 0vw 0vw 1vw 1vw;
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+    padding: 2vw;
+    font-size: large;
+    font-weight: bold;
+    color: #2D3047;
+    box-shadow: 2vw 2vw 5vw #2D3047;
 }
