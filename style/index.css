@@ -49,3 +49,13 @@ header nav a:hover{
     color: lightsalmon;
     background-color: #2D3047;
 }
+article div.blob-painting{
+    background: url("../images/20211003_202954_HDR~2.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: #2D3047;
+    width: 90vw;
+    height: 58vh;
+    margin: 3vw 3vw;
+    border: solid 2vw #2D3047;
+    border-radius: 4vw;
+}
