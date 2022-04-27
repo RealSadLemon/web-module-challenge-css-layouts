@@ -59,7 +59,7 @@ article div.blob-painting{
     background: url("../images/20211003_202954_HDR~2.jpg") no-repeat center center;
     background-size: cover;
     background-color: #2D3047;
-    width: 80vh;
+    width: 75vw;
     height: 30vh;
     margin: 3vh 3vh;
     border: solid 2vh #2D3047;
@@ -99,13 +99,54 @@ section{
     border-bottom: solid 1vh #147065;;
     margin-top: 80px;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
 }
-section div{
-    width: 28vw;
+section div.creations{
+    max-width: 75vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1vh #147065;
+    border-left: solid 1vh #147065;
+}
+section div div.filler a{
+    max-width: fit-content;
+    min-height: fit-content;
+    background-color: #147065;
+    border: solid 2vw #2D3047;
+    border-radius: 4vw;
+    text-align: center;
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+    color: #23beac;
+    font-size: 6vh;
+    font-weight: bold;
+}
+section div div a{
+    width: 14vw;
     height: fit-content;
     margin: 2vw;
     background-color: #2D3047;
     border-radius: 1vh;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section div div a img{
+    max-width: 12vw;
+    object-fit: cover;
+    border: solid .5vh #2D3047;
+    border-radius: 2vh;
+}
+section div div a p{
+    color: #2D3047;
+    background-color: #1B998B;
+    border: solid .5vh #2D3047;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
 }
