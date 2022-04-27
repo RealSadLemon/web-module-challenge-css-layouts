@@ -9,7 +9,6 @@ header{
     flex-wrap: wrap;
     background-color: #2D3047;
     box-shadow: 0px 4px 10px black;
-    margin-bottom: 40px;
 }
 header h1 a.secret{
     font-family: 'Rock Salt', cursive, sans-serif;
@@ -55,8 +54,11 @@ header nav a:hover{
     background-color: #2D3047;
 }
 article{
+    background-image: url(../images/20211003_202954_HDR~2.jpg);
     display: flex;
     justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 article div.blob-painting{
     background: url("../images/20211003_202954_HDR~2.jpg") no-repeat center center;
@@ -99,8 +101,7 @@ section{
     background-color: #1B998B;
     box-shadow: 0px -4px 60px rgb(56, 56, 56);
     border-top: solid 1vh #147065;
-    border-bottom: solid 1vh #147065;;
-    margin-top: 80px;
+    border-bottom: solid 1vh #147065;
     display: flex;
     justify-content: center;
 }
@@ -201,4 +202,41 @@ footer button{
 footer button:hover{
     color: white;
     background-color: #147065;
+}
+article div.blob-border{
+    max-width: 60vw;
+    border-radius: 2vh;
+    padding: 5vh;
+    background-color: #2D3047;
+    color: white;
+}
+article div h2.About,
+article div h2.Contact{
+    background-color: #fffd82;
+    padding: 2vw;
+    margin: -6vh 0vh 2vh -6vh;
+    border-radius: 2vh;
+    max-width: fit-content;
+    color: #2D3047;
+    font-family: 'Rock Salt', cursive, sans-serif;
+    font-size: x-large;
+}
+article div p.About,
+article div p.Contact{
+    padding: 2vw;
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+    font-size: 2.5vw;
+}
+article div p.Contact a{
+    color: black;
+    background-color: #1B998B;
+    transition: .2s;
+    padding: 2vh 1.5vw;
+    border-radius: 1vh;
+}
+article div p.Contact a:hover{
+    color: white;
+    background-color: #0e0f16;
+    transition: .2s;
+    border-radius: 2vh;
 }
