@@ -6,6 +6,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #2D3047;
     box-shadow: 0px 4px 10px black;
     margin-bottom: 40px;
@@ -24,6 +25,8 @@ header h1{
     font-size: 25px;
     text-shadow: 2px 2px 5px #0e0f16;
     margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #fffd82;
     cursor: default;
 }
@@ -59,7 +62,7 @@ article div.blob-painting{
     background: url("../images/20211003_202954_HDR~2.jpg") no-repeat center center;
     background-size: cover;
     background-color: #2D3047;
-    width: 75vw;
+    min-width: 60vw;
     height: 30vh;
     margin: 3vh 3vh;
     border: solid 2vh #2D3047;
@@ -107,46 +110,95 @@ section div.creations{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    border-right: solid 1vh #147065;
-    border-left: solid 1vh #147065;
 }
-section div div.filler a{
+/* section div div.filler a{
     max-width: fit-content;
     min-height: fit-content;
     background-color: #147065;
     border: solid 2vw #2D3047;
-    border-radius: 4vw;
+    border-radius: 2vw;
     text-align: center;
     font-family: 'Quicksand', 'Courier New', Courier, monospace;
     color: #23beac;
-    font-size: 6vh;
+    font-size: 3vh;
     font-weight: bold;
-}
+} */
 section div div a{
-    width: 14vw;
-    height: fit-content;
+    max-height: 50vh;
+    max-width: 15vw;
+    min-width: fit-content;
     margin: 2vw;
     background-color: #2D3047;
+    border: solid .5vh #2D3047;
+    border-radius: 2vh;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #2D3047;
+    transition: .2s;
+}
+section div div a:hover{
+    box-sizing: border-box;
+    max-height: 50vh;
+    max-width: 15vw;
+    min-width: fit-content;
+    margin: 2vw;
+    background-color: #2D3047;
+    border: solid .5vh white;
     border-radius: 1vh;
     padding: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
+    transition: .2s;
 }
 section div div a img{
-    max-width: 12vw;
+    max-height: 45vh;
+    max-width: 15vw;
     object-fit: cover;
-    border: solid .5vh #2D3047;
+    border: solid 1vh inherit;
+    border-bottom: solid .5vh inherit;
     border-radius: 2vh;
+    transition: .2s;
+}
+section div div a img:hover{
+    border: solid .5vh inherit;
+    border-bottom: solid .5vh inherit;
+    border-top-left-radius: .5vh;
+    border-top-right-radius: .5vh;
+    transition: .2s;
 }
 section div div a p{
-    color: #2D3047;
-    background-color: #1B998B;
+    color: inherit;
+    background-color: #23beac;
     border: solid .5vh #2D3047;
     border-radius: 1vh;
     padding: 1vh;
     font-family: 'Quicksand', 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
+}
+footer{
+    min-height: 15vh;
+    background-color: #2D3047;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer button{
+    border: none;
+    padding: 1vh 4vw;
+    border-radius: .5vh;
+    background-color: #23beac;
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+footer button:hover{
+    color: white;
+    background-color: #147065;
 }
