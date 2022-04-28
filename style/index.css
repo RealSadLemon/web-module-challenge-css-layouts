@@ -104,7 +104,7 @@ article div.blob-painting p:hover{
     border-width: 0px .5vh .5vh .5vh;
     color: white;
     transition: .2s;
-    padding-top: -1.5vh;
+    padding: 1.75vh;
 }
 section{
     background-color: #1B998B;
