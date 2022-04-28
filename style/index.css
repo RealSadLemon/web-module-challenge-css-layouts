@@ -96,6 +96,15 @@ article div.blob-painting p{
     font-weight: bold;
     color: #2D3047;
     box-shadow: 2vh 2vh 5vh #2D3047;
+    transition: .2s;
+}
+article div.blob-painting p:hover{
+    box-sizing: border-box;
+    border: solid white;
+    border-width: 0px .5vh .5vh .5vh;
+    color: white;
+    transition: .2s;
+    padding-top: -1.5vh;
 }
 section{
     background-color: #1B998B;
@@ -171,7 +180,7 @@ section div div a img:hover{
     border-bottom: solid .5vh inherit;
     border-top-left-radius: .5vh;
     border-top-right-radius: .5vh;
-    transition: .2s;
+    transition: .1s;
 }
 section div div a p{
     color: inherit;
