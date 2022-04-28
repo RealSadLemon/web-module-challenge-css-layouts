@@ -1,0 +1,121 @@
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    header h1 {
+        margin: 3vh 1vh;
+    }
+    header nav {
+        width: 65vw;
+    }
+    article div.blob-painting{
+        width: 80vw;
+    }
+    article div.blob-border{
+        margin-bottom: 15vh;
+    }
+    section div.creations {
+        width: 100vw;
+        flex-direction: column;
+    }
+    section div.creations div a{
+        flex-direction: row;
+        max-height: fit-content;
+        min-width: 70vw;
+    }
+    section div.creations div a img{
+        min-width: 25vw;
+        margin-right: auto;
+        justify-self: flex-start;
+    }
+    section div.creations div a p{
+        margin-right: auto;
+        padding: 5vw;
+    }
+    article div.blob-border h2.About,
+    article div.blob-border h2.Contact,
+    article div.blob-border h2.Projects{
+        margin: -3vh 0vh 0vh -3vh;
+    }
+    article div p.About,
+    article div p.Contact{
+        font-size: 2.5vh;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    article div p.Contact{
+        padding: 5vh 0vh;
+    }
+    article div p.Contact a{
+        padding: 3vh 20vw;
+    }
+    article div.blob-painting h2{
+        text-align: center;
+    }
+    section div.creations div a{
+        height: 22vh;
+    }
+}
+@media (max-width: 500px){
+    article div.blob-border {
+        margin-bottom: 3vh;
+    }
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    header h1 {
+        margin: 3vh 1vh;
+    }
+    article div.blob-painting h2{
+        text-align: center;
+    }
+    article div.blob-border {
+        padding: 1vh;
+        min-width: 80vw;
+    }
+    article div.blob-border h2.About,
+    article div.blob-border h2.Contact,
+    article div.blob-border h2.Projects{
+        margin: -3vh 0vh 0vh -3vh;
+    }
+    article div p.About,
+    article div p.Contact{
+        font-size: 2.5vh;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    article div p.Contact{
+        padding: 5vh 0vh;
+    }
+    article div p.Contact a{
+        padding: 3vh 20vw;
+    }
+    div.project div.description {
+        margin-left: -10vw;
+    }
+    div.project div.description p{
+        font-weight: 500;
+        text-align: center;
+        width: 40vw;
+        margin-left: 2vw;
+    }
+    div.project a img{
+        height: 30vw;
+        width: 30vw;
+        border-radius: 2vh;
+        margin: 5vw 3vw 3vw 8vw;
+    }
+    section div.creations div a{
+        height: 30vw;
+    }
+    header nav {
+        width: 45vw;
+    }
+}
+    
